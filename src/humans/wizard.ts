@@ -10,6 +10,7 @@ class Wizard extends Human implements wizardInterface {
   ) {
     super(_name, _age);
   }
+
   attack(): number {
   return this._magicForce;
   }
